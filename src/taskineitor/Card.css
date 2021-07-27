@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .contenedor-main {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-container {
+    margin: 17px;
+    width: 380px;
+    height: 170px;
+    padding-left: 30px;
+    background-color: #4044c9;
+    color: white;
+  
+    border-radius: 12px;
+    box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+  }
+  
+  .tarea-titulo {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+  }
+  
+  .tarea-fecha p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 3px;
+    color: #fee504;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .tarea-categoria p {
+    margin: 0;
+  }
+  
+  .tarea-categoria :nth-child(1) {
+    margin-top: 11px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 3px 0px;
+    font-weight: 100;
+  }
+  
+  .categoria {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    background: #f777ad;
+    border-radius: 22px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .imagen-svg {
+    font-size: 35px;
+    position: relative;
+    left: 225px;
+    bottom: 70px;
+    margin: 8px;
+  }
+  
