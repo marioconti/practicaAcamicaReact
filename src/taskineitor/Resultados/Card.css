@@ -9,13 +9,7 @@ html {
   *:after {
     box-sizing: inherit;
   }
-  
-  .contenedor-main {
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   
   .card-container {
     margin: 17px;
