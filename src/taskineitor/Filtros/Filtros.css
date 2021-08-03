@@ -16,12 +16,18 @@
   color: #525252;
 }
 
+.inputs-dates {
+  margin-right: 20px;
+}
 .borde-recto {
   display: inline-block;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
 
+.inputs-pils {
+  margin-left: 20px;
+}
 .borde-ovalado {
   display: inline-block;
   border: 1px solid #000000;
